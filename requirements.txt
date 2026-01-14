@@ -1,0 +1,39 @@
+# Core Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+psycopg2-binary>=2.9.0  # PostgreSQL
+# mysql-connector-python>=8.0.0  # Descomenta si usas MySQL
+
+# Data Processing
+pandas>=2.0.0
+openpyxl>=3.0.0  # Para archivos xlsx
+xlrd>=2.0.0      # Para archivos xls antiguos
+
+# Validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+email-validator>=2.0.0
+
+# Utils
+python-dotenv>=1.0.0
+python-jose[cryptography]>=3.3.0  # Para JWT
+passlib[bcrypt]>=1.7.4            # Para password hashing
+
+# Storage (opcional - descomenta según necesites)
+# firebase-admin>=6.0.0  # Para Firebase Storage
+# boto3>=1.28.0         # Para AWS S3
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.24.0  # Para testing de FastAPI
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
